@@ -1,3 +1,8 @@
 document.getElementById("btn-submit").addEventListener("click", function () {
-  console.log("js file added");
+  const emailField = document.getElementById("user-email");
+  const email = emailField.value;
+
+  const passwordField = document.getElementById("user-password");
+  const password = passwordField.value;
+  console.log(email, password);
 });
