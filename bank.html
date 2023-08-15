@@ -23,7 +23,7 @@
           </div>
           <div class="bg-fuchsia-500 p-12 text-center rounded-xl font-semibold">
             <h4 class="text-2xl">WITHDRAW</h4>
-            <h2 class="text-5xl">$00</h2>
+            <h2 class="text-5xl">$<span id="withdraw-total">00</span></h2>
           </div>
           <div class="bg-rose-500 p-12 text-center rounded-xl font-semibold">
             <h4 class="text-2xl">BALANCE</h4>
@@ -35,6 +35,7 @@
       <!-- deposit and withdraw input section -->
       <section class="mt-12">
         <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto">
+          <!-- deposit section -->
           <div class="bg-teal-500 p-12 text-center rounded-xl font-semibold">
             <h4 class="text-2xl text-white">PLEASE DEPOSIT</h4>
             <input
@@ -52,6 +53,8 @@
               DEPOSIT
             </button>
           </div>
+
+          <!-- withdraw section -->
           <div class="bg-amber-500 p-12 text-center rounded-xl font-semibold">
             <h4 class="text-2xl text-white">PLEASE WITHDRAW</h4>
             <input
@@ -73,5 +76,6 @@
       </section>
     </main>
     <script src="deposit.js"></script>
+    <script src="withdraw.js"></script>
   </body>
 </html>
